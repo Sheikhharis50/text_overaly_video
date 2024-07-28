@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text With Video</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/assets/css/global.css">
+</head>
+
+<body>
+  <nav class="py-5 bg-slate-800 text-white">
+    <div class="flex justify-between items-center md:container md:m-auto">
+      <h1 class="text-4xl"><a href="/index.html">Text Overaly Video</a></h1>
+      <ul class="flex items-center gap-4 m-2">
+        <li>
+          <a class="hover:underline" href="/index.html">Home</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="bg-[#0F1A60]">
+    <div class="md:container md:m-auto relative my-5">
+      <video autoplay loop muted preload="none">
+        <source src="/assets/videos/video.mp4" type="video/mp4" />
+      </video>
+      <div
+        class="absolute top-0 left-0 h-full w-full bg-[#0F1A60] text-white flex items-center justify-center font-extrabold mix-blend-multiply">
+        <h1 class="text-8xl">
+          We Blend <br>
+          innovation and <br>
+          precision to deliver <br>
+          solutions that drive <br>
+          success and <br>
+          elevate your brand
+        </h1>
+      </div>
+      <div class="absolute h-full w-full top-0 left-0 bg-[#0F1A60] mix-blend-lighten"></div>
+    </div>
+  </section>
+
+  <section class="bg-white">
+    <div class="md:container md:m-auto relative my-5">
+      <video autoplay loop muted preload="none">
+        <source src="/assets/videos/video.mp4" type="video/mp4" />
+      </video>
+      <div
+        class="absolute top-0 left-0 h-full w-full bg-white text-black flex items-center justify-center font-extrabold mix-blend-lighten">
+        <h1 class="text-8xl">
+          We Blend <br>
+          innovation and <br>
+          precision to deliver <br>
+          solutions that drive <br>
+          success and <br>
+          elevate your brand
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <script src="/assets/js/global.js"></script>
+</body>
+
+</html>
